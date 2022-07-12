@@ -131,6 +131,7 @@
 - Support `#custom_control` method on libui objects that are the root of a class-based custom control (consider adding to control proxies too that are roots of custom controls)
 - Support textual tooltips (on hover over attributed strings) in `code_area` custom control (and potentially `code_editor` custom control)
 - Look into the potential issue with not respecting the even odd rule when triggering events on figures within a path
+- Integrate GR chart/plot support into Glimmer DSL for LibUI (or provide a custom control gem for it) once LibUI supports image rendering or pixel drawing in an efficient manner
 
 # Refactoring
 
