@@ -392,6 +392,7 @@ DSL | Platforms | Native? | Vector Graphics? | Pros | Cons | Prereqs
     - [Chess](#chess)
     - [RubyCrumbler](#rubycrumbler)
     - [Rubio-Radio](#rubio-radio)
+    - [PMV Calc](#pmv-calc)
   - [Process](#process)
   - [Resources](#resources)
   - [Help](#help)
@@ -2635,7 +2636,7 @@ MacOS | Windows | Linux
 
 https://github.com/kojix2/rubio-radio
 
-![rubio radio screenshot](https://raw.githubusercontent.com/kojix2/rubio-radio/main/screenshots/rubio-radio-mac.png)
+![rubio radio screenshot](https://raw.githubusercontent.com/kojix2/rubio-radio/main/screenshots/rubio-radio-linux.png)
 
 ### PMV Calc
 
