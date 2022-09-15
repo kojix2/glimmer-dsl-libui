@@ -2642,6 +2642,18 @@ https://github.com/bzanchet/pmv-calc
 
 ![PMV Calc](https://raw.githubusercontent.com/AndyObtiva/pmv-calc/screenshot/screenshots/PMV-Calc.png)
 
+### Suika Box
+
+https://github.com/kojix2/suikabox
+
+![suika box screenshot](https://raw.githubusercontent.com/AndyObtiva/suikabox/main/screenshot.png)
+
+### HTS Grid
+
+https://github.com/kojix2/htsgrid
+
+![hts grid screenshot](https://raw.githubusercontent.com/AndyObtiva/htsgrid/main/screenshot-00.png)
+
 ## Process
 
 [Glimmer Process](https://github.com/AndyObtiva/glimmer/blob/master/PROCESS.md)
