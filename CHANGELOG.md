@@ -2,7 +2,7 @@
 
 ## 0.6.1
 
-- `examples/lazy_table.rb` (and `examples/lazy_table2.rb` variation)
+- `examples/lazy_table.rb` (4 versions) table lazy loading with a million rows via `Enumerator` or `Enumerator::Lazy` to enable instant app startup time
 - Support `table` `cell_rows` implicit data-binding to a collection of models (only supported an array of arrays before in implicit data-binding)
 
 ## 0.6.0
