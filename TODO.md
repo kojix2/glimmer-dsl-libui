@@ -149,6 +149,7 @@
 - Have `table` tolerate adding `nil` in implicit data-binding by treating it as an empty row
 - As a performance optimization, have `table` change expanded_cell_rows only for updated cells instead of regenerating from scratch upon every cell/row change.
 - Support `refined_table` `cell_rows` lazy loading via Enumerator
+- consider replacing chunky png gem with exif to additionally support jpeg and tiff with higher native extension performance: https://github.com/tonytonyjan/exif
 
 # Refactoring
 
