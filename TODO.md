@@ -2,6 +2,7 @@
 
 ## Next
 
+- Update Supported Controls documentation with allowed parents and allowed children
 - Support overriding global `table` `editable` state with a specific column `editable` state if global value is `true` and column value is `false`
 - Make `table` columns default to empty string if no text is provided for the name of the column
 - Support table `cell_rows` live-loading via a provider (e.g. `cell_rows { |row, cell| value_based_on_row_and_cell }` )
@@ -150,6 +151,7 @@
 - As a performance optimization, have `table` change expanded_cell_rows only for updated cells instead of regenerating from scratch upon every cell/row change.
 - Support `refined_table` `cell_rows` lazy loading via Enumerator
 - consider replacing chunky png gem with exif to additionally support jpeg and tiff with higher native extension performance: https://github.com/tonytonyjan/exif or https://github.com/wilg/mini_exiftool_vendored
+- Validate control's allowed parents and allowed children to help with using the GUI DSL when making mistakes
 
 # Refactoring
 
