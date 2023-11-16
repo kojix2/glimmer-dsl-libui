@@ -4,6 +4,7 @@
 
 - Make scaffolded app closeable with CMD+Q on Mac by default
 
+- Put scaffolded menus in a menu_bar method (or menus or something similar)
 - Ensure that shape/path containment/inclusion checks take their transform into account while using `PerfectShape`. Do so by reverse-transforming the point and checking it against the shapes (as done in Glimmer DSL for SWT).
 - Update basic_transform.rb to allow changing the color of the clicked transformed square
 - Augment examples/class_based_custom_controls.rb example with a custom listener
