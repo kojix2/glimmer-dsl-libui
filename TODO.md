@@ -8,6 +8,9 @@
 - Update basic_transform.rb to allow changing the color of the clicked transformed square
 - Augment examples/class_based_custom_controls.rb example with a custom listener
 
+- Avoid loading perfect-shape gem until area canvas graphics are used
+- Avoid loading color gem until colors are used 
+- Avoid loading facets in scaffold and list tasks, yet load used part of facets only instead
 - Support nesting `text` inside composite `shape`
 - Simplify `text`/`string` combo usage by using only `text` if there is one `string` only.
 - Content Data-Binding of area shapes
