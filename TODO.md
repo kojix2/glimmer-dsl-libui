@@ -8,7 +8,6 @@
 - Update basic_transform.rb to allow changing the color of the clicked transformed square
 - Augment examples/class_based_custom_controls.rb example with a custom listener
 
-- Support combining table explicit data-binding with lazy enumerable support
 - Support nesting `text` inside composite `shape`
 - Simplify `text`/`string` combo usage by using only `text` if there is one `string` only.
 - Content Data-Binding of area shapes
@@ -43,6 +42,7 @@
 
 - It seems that table-related instability in Windows is back. Check what is causing it. Test with RefinedTable
 - Fix issue with version 4 of Area Gallery
+- Support bidirectional (two-way) data-binding of table cell_rows when the data is an Enumerator, observing retrieved objects in the final array for changes and updating table, or updating models if the table is editable and the user causes changes
 
 - Report libui-ng issue about shape_coloring not being able to encase arc completely with a border due to not supporting that
 
@@ -170,7 +170,7 @@
 - Fill application scaffolding README with default setup and usage instructions, renaming README.markdown to README.md, and perhaps TODO.md and CHANGELOG.md
 - Support a declarative simple way of adding support for listeners on a custom control (`Glimmer::LibUI::CustomControl`)
 - Consider providing a built-in way of translating table columns with a translator data-binding option (e.g. `cell_rows <=> [user, :contacts, translator: ->(val) {I18n.t(val)}]`) while still using the English-named translation keys as the main attributes to data-bind to. Or even consider configuring a global translator, and then adding a `translated: true` option to take care of everything.
-- Consider providing standard out-of-the-box i18n support 
+- Consider providing standard out-of-the-box i18n support
 
 # Refactoring
 
